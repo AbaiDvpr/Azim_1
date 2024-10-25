@@ -1,0 +1,374 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.maxxx{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.main-page{
+    
+    width: 100%;
+    height: 100vh;
+    min-height: 700px;
+    
+    position: relative;
+
+    background-color: black;
+    
+
+}
+
+body{
+    background-color: #dedede;
+}
+
+
+.logo{
+    width: 70px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Main-content{
+    position: relative;
+    z-index: 1;
+
+    padding-top: 100px;
+    padding-left: 100px;
+    font-size: 60px;
+}
+.Main-content>h1{
+    color: white;
+}
+
+.logo>img{
+width: 100%;
+}
+
+nav>ul{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+
+nav > ul > li{
+    list-style: none;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+header{
+  
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 40px;
+    align-items: center;
+    z-index: 1;
+    width: auto;
+    height: 100px;
+    /* background-color: rgb(107, 107, 239); */
+    padding: 0 40px;
+
+}
+
+.main-page_backgroundBlock{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+ 
+    display: flex;
+    z-index: 0 ;
+
+    opacity: 0.5;
+
+}
+
+.main-page_backgroundBlock>img{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.main-regions{
+    width: 100%;
+    height: 100%;
+    /* background-color: gold; */
+}
+
+.main-regionsBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 30px;
+    width: auto;
+    padding-left: 40px;
+}
+
+.main-regionsGallery{
+    width: auto;
+    height: max-content;
+    padding:  40px 30px 40px 30px;
+    /* background-color: #e3e3ff; */
+}
+
+.main-regionsGallery .item{
+    height: 500px;
+}
+
+
+
+.Card-Region{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 20px;
+    background-color: black;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 20px;
+}
+.Card-Region>img{
+    position: absolute;
+    top: 0;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+}
+.Card-Region>p{
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    /* font-size: 38px; */
+}
+
+.main-regionsGallery .item3{
+    width: 100% !important;
+
+    height: 80vh;
+    max-height: 600px;
+}
+.main-regionsGallery .item3{
+    width: 100% !important;
+}
+    
+        
+
+.Main-content > p {
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    max-width: 60%;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+.about-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.about-text, .about-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-text p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.facts {
+    margin-top: 20px;
+}
+
+.facts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.facts li {
+    margin: 5px 0;
+    padding-left: 20px;
+    position: relative;
+    color: #333;
+}
+
+.facts li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #007BFF;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+.Card-Region-p1{
+font-size: 34px;
+}
+
+.Card-Region-p2{
+    max-width: 80%;
+    font-size: 20px;
+}
+
+.item3>.Card-Region>img{
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+
+.contacts-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.contacts-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.agency-info, .hotel-info, .map, .contact-form {
+    margin-bottom: 20px;
+}
+
+.agency, .hotel {
+    margin-bottom: 15px;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.agency h4, .hotel h4 {
+    margin: 0;
+    color: #007bff;
+}
+
+.contact-form label {
+    display: block;
+    margin: 5px 0;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+.useful-info-section {
+    padding: 20px;
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.useful-info-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.info-item {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.info-item h3 {
+    margin: 0;
+    color: #007bff;
+}
+
+.info-item p {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    header{
+        padding: 10px;
+        height: auto;
+    }
+    nav>ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .logo{
+        display: none;
+    }
+
+    .Main-content>h1{
+        font-size: 28px;
+    }
+    .Main-content{
+        padding-left: 10px;
+    }
+}
